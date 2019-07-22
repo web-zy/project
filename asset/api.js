@@ -4,13 +4,13 @@ import router from 'vue-router';
 import utrl from "./../controller/utrl.js"
 
 // let isTest = window.location.host
-let isTest = window.location.host.indexOf("test.") != -1 ? true : false
-const domain = isTest ? "http://test.api.beeerp.com/api/v1/" : "https://api.beeerp.com/api/v1/";
+let isTest = ''
+const domain = isTest ? "" : "";
 // const domain = "api/";
 
-const headUrl = isTest ? "http://test.api.beeerp.com/api/v1/files/" : "https://api.beeerp.com/api/v1/files/";
+const headUrl = isTest ? "" : "";
 
-const app_key = "F1843533ADA04C358CA826305D5869BF";
+const app_key = "";
 const edition = 5;
 var loginStatus = false;
 var token = null;
